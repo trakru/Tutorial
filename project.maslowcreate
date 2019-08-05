@@ -66,16 +66,7 @@
                     "x": 467,
                     "y": 263,
                     "uniqueID": 964908,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 9.9
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": -1.4
-                        }
-                    ],
+                    "ioValues": [],
                     "currentEquation": 2
                 },
                 {
@@ -102,8 +93,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
-                    "y": 164,
+                    "x": 2510,
+                    "y": 332.5,
                     "ioValues": []
                 }
             ],
@@ -115,19 +106,13 @@
                     "ap2ID": 304604
                 },
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x",
-                    "ap1ID": 385685,
-                    "ap2ID": 964908
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 304604,
                     "ap2ID": 434840
                 },
                 {
-                    "ap1Name": "z",
+                    "ap1Name": "result",
                     "ap2Name": "xDist",
                     "ap1ID": 964908,
                     "ap2ID": 434840
@@ -209,8 +194,8 @@
                     "uniqueID": 606028,
                     "ioValues": [
                         {
-                            "name": "radius",
-                            "ioValue": 9.9
+                            "name": "diameter",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -309,13 +294,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1084,
-                    "y": 223,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Readme",
                     "name": "README",
                     "x": 1105,
@@ -323,6 +301,13 @@
                     "uniqueID": 650474,
                     "ioValues": [],
                     "readmeText": "The output of the program defines what will be displayed in the project thumbnail and what shape will be used for displaying changes over time. The output of the project should be connected to the output Atom. Each Molecule comes with one Output atom which cannot be deleted."
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 2510,
+                    "y": 332.5,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -337,12 +322,6 @@
                     "ap2Name": "geometry",
                     "ap1ID": 225460,
                     "ap2ID": 636389
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "radius",
-                    "ap1ID": 832924,
-                    "ap2ID": 606028
                 },
                 {
                     "ap1Name": "number",
